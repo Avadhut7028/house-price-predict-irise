@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Safely resolve the path for Vercel's serverless environment
 current_dir = os.path.dirname(__file__)
-model_path = os.path.join(current_dir, 'linear.pkl')
+model_path = os.path.join(current_dir, 'Linear_Regression.pkl')
 
 try:
     with open(model_path, 'rb') as f:
